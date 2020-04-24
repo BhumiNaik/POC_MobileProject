@@ -1,0 +1,1 @@
+﻿@Dashboard;;DashboardForm,@Map,@activity,@Tourplan,account,contact,lead,opportunity,quote,salesorder,msdyn_workorder,invoice,product,@CallImport,transactioncurrency,@Setup,@About

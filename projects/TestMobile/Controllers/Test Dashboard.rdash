@@ -1,0 +1,20 @@
+﻿<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0">
+  <Columns>3</Columns>
+  <Rows>3</Rows>
+  <Items>
+    <DashboardComponent xsi:type="DashboardEntityComponent" Kind="List" Binding="account;&lt;extra&gt;&lt;actions&gt;0;0;1&lt;/actions&gt;&lt;/extra&gt;" Options="3">
+      <Bounds>0,0,1,1</Bounds>
+      <LegacyConfig>account</LegacyConfig>
+    </DashboardComponent>
+    <DashboardComponent xsi:type="DashboardEntityComponent" Kind="Chart" Binding="opportunity" Options="3">
+      <Bounds>1,0,1,1</Bounds>
+    </DashboardComponent>
+    <DashboardComponent xsi:type="DashboardEntityComponent" Kind="List" Binding="activity;&lt;extra&gt;&lt;actions&gt;0;0;1&lt;/actions&gt;&lt;/extra&gt;" Options="3">
+      <Bounds>0,1,1,1</Bounds>
+      <LegacyConfig>activity</LegacyConfig>
+    </DashboardComponent>
+    <DashboardComponent xsi:type="DashboardComponent" Kind="IFrame" Binding="https://www.resco.net" Title="Web">
+      <Bounds>1,1,1,1</Bounds>
+    </DashboardComponent>
+  </Items>
+</Dashboard>
